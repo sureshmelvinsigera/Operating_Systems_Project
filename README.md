@@ -12,8 +12,8 @@ This module/exercise gives students hands-on experience setting up and configuri
 | Lesson                                                                                     | Skills                                                                               |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | [Setup](./setup/README.md)                                                                 | Setting up the development environment                                               |
-| [Concepts](./install-the-software/README.md)                                                           | Introduction to the scenario and set up software on the workdstation                           |
-| [Fundamentals](./setup-users-and-security/README.md)                                                   | Add users, groups, and security JavaScript                               |
+| [Install the Software](./install-the-software/README.md)                                                           | Introduction to the scenario and set up software on the workdstation                           |
+| [Configure Users and UI](./setup-users-and-security/README.md)                                                   | Add users, groups, and security JavaScript                               |
 
 <!-- ## References
 
