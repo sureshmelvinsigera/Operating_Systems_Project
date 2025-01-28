@@ -90,3 +90,5 @@ sudo lpadmin -p "PCLPrinter" -v "smb://192.168.14.22/SharedPCLPrinter"
 Stop and test the machine to verify that the software installed. Using RDP connect to the machine and open each application to ensure that it is installed. Use the usesrname 'ubuntu' and the password you set earlier.
 
 Open the chromium web browser and navigate to any website. Try to print the page and make sure that there is a printer available that is NOT the default "PDF Printer".
+
+

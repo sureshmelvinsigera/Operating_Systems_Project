@@ -65,3 +65,14 @@ sudo bash -c "echo \"secondary-color='000000'\" >> /etc/dconf/db/students.d/00_w
 # Set the profile
 sudo dconf update
 sudo bash -c 'echo "export DCONF_PROFILE=\"students\"" >> /home/k12student/.profile'
+
+# Set Automatic Upgrades
+sudo apt-get install unattended-upgrades -y
+
+# Enable the automatic upgrades
+sed -i 's|\s*//\s*"\${distro_id}:\${distro_codename}";|\t"\${distro_id}:\${distro_codename}";|' /etc/apt/apt.conf.d/50unattended-upgrades
+sed -i 's|\s*//\s*"\${distro_id}:\${distro_codename}-security";|\t"\${distro_id}:\${distro_codename}-security";|' /etc/apt/apt.conf.d/50unattended-upgrades
+sed -i 's|\s*//\s*"\${distro_id}:\${distro_codename}-updates";|\t"\${distro_id}:\${distro_codename}-updates";|' /etc/apt/apt.conf.d/50unattended-upgrades
+
+# Reload the Upgrade Service
+sudo systemctl restart unattended-upgrades
