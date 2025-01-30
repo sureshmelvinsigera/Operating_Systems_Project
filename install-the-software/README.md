@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">Operating Systems: Hands-on</span>
-  <span class="subhead">Configure the Machine: Software</span>
+  <span class="subhead">Set Up Software and Printer</span>
 </h1>
 
 

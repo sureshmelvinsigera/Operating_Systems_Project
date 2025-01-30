@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">Operating Systems: Hands-on</span>
-  <span class="subhead">Configure the Machine: Users, Groups, and Security</span>
+  <span class="subhead">User Settings & Permissions</span>
 </h1>
 
 
