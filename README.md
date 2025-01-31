@@ -12,9 +12,11 @@ This module/exercise gives students hands-on experience setting up and configuri
 | Lesson                                                                                     | Skills                                                                               |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | [Setup](./setup/README.md)                                                                 | Setting up the development environment                                               |
+| [Linux System & User Management Overview](./linux-system-overview/README.md)                                   | Review key concepts and discuss with your group the tasks                           |
 | [Set Up Software and Printer](./install-the-software/README.md)                                   | Introduction to the scenario and set up software on the workdstation                           |
 | [User Settings & Permissions](./setup-users-and-security/README.md)                             | Add users, groups, and security                                |
 | [Enable Automatic Update](./set-aut-update/README.md)                                            | Configure automatic upgrades to OS, security, and software                               |
+| [System Configuration Guide](./system-configuration-guide/README.md)                                            | Document your work and finalize your provisioning scripts                               |
 
 
 ## Internal
