@@ -38,7 +38,6 @@ There needs to be one Windows server pre-created to stand-in as a print server. 
     - Use port LPT1 for the printer
     - Select the Microsoft PCL6 driver for the printer
     - Share the printer as `SharedPCLPrinter`
-- Deploy in a private subnet that is visible to the public subnet on ip address 192.168.14.22
 - Optional: Create a unique security group for the print server that only allows traffic from 192.168.0.0/16
 
 
