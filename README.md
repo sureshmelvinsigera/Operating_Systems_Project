@@ -32,3 +32,4 @@ This module/exercise gives students hands-on experience setting up and configuri
 - A terminal application capable of SSH
 - A Remote Desktop Protocol (RDP) client (this is built into Windows, and availablee for Mac and Linux)
 
+=======
