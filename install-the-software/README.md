@@ -46,6 +46,7 @@ Install the software requested by the lab instructor. While many of the packages
 Note: LibreOffice writer is already installed by default on Ubuntu!
 
 Question: why are we adding `-y` to the end of the `apt-get` command?
+
 Answer: So the `-y` will automatically answer yes to the apt commands which makes the script non-interactive (you don't need to type anything).
 
 ```bash
