@@ -9,7 +9,7 @@ You are a system administrator for a small school. You have been tasked with set
 
 ## Automatic Updates
 
-We don't want administrators or students to have the task of regularly running updates. What has to be done manually often just will not get done. Thankfully it's possible to have Ubuntu automatically download and apply updates. We need to install the unatended-upgrades package and then configure it.
+We don't want administrators or students to have the task of regularly running updates. What has to be done manually often just will not get done. Thankfully it's possible to have Ubuntu automatically download and apply updates. We need to install the unattended-upgrades package and then configure it.
 
 
 This will install the automatic upgrade package.
