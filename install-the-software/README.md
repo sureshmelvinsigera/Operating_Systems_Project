@@ -8,7 +8,7 @@
 
 ## Scenario
 
-You are a system administrator for a small school. You have been tasked with setting up workstations for the students. The school has chose to use Ubuntu Linux for their computer labs as it is open source, well-maintained, and can be properly secured. The students will need to print assignments to a network printer, access the internet, use a word processor, draw graphics, and during recess, play appropriate games. 
+You are a system administrator for a small school. You have been tasked with setting up workstations for the students. The school has chosen to use Ubuntu Linux for their computer labs as it is open source, well-maintained, and can be properly secured. The students will need to print assignments to a network printer, access the internet, use a word processor, draw graphics, and during recess, play appropriate games. 
 
 ### Software
 The lab instructor has asked you to ensure that this software is available for the students:
@@ -20,7 +20,7 @@ The lab instructor has asked you to ensure that this software is available for t
 - Inkscape (vector graphics editor)
 - Supertux (game)
 
-The student will also need to access a network printer. The printer is a shared printer on the network using a PCL6 driver. The printer is shared as "SharedPCLPrinter" via windows networks (also known as smb).
+The student will also need to access a network printer. The printer is a shared printer on the network using a PCL6 driver. The printer is shared as "SharedPCLPrinter" via Windows networks (also known as smb).
 
 ### Repeatability
 
@@ -41,11 +41,12 @@ sudo apt-get update
 sudo apt-get upgrade -y
 ```
 
-Install the software requested by the lab instructor. While of the packages are available in the default repositories, Visual Studio code is not. You will need to add the repository and key.
+Install the software requested by the lab instructor. While many of the packages are available in the default repositories, Visual Studio code is not. You will need to add the repository and key.
 
 Note: LibreOffice writer is already installed by default on Ubuntu!
 
 Question: why are we adding `-y` to the end of the `apt-get` command?
+Answer: So the `-y` will automatically answer yes to the apt commands which makes the script non-interactive (you don't need to type anything).
 
 ```bash
 sudo apt-get install chromium-browser inkscape gimp supertux -y
@@ -67,7 +68,9 @@ sudo apt update
 sudo apt install code -y
 ```
 
-So the `-y` will automatically answer yes to the apt commands which makes the script non-interactive (you don't need to type anything). Why are we running `apt update` again before we install `code`? This is because adding the Visual Studio Code (aka `code`) repository doesn't update the list of software available for install. We have to do that first for `code` to be available.
+Why are we running `apt update` again before we install `code`? 
+
+This is because adding the Visual Studio Code (aka `code`) repository doesn't update the list of software available for install. We have to do that first for `code` to be available.
 
 
 ## Connecting the Printer
@@ -87,7 +90,7 @@ sudo lpadmin -p "PCLPrinter" -v "smb://192.168.14.22/SharedPCLPrinter"
 
 ## Testing Software Installation and Printer
 
-Stop and test the machine to verify that the software installed. Using RDP connect to the machine and open each application to ensure that it is installed. Use the usesrname 'ubuntu' and the password you set earlier.
+Stop and test the machine to verify that the software installed. Using RDP, connect to the machine and open each application to ensure that it is installed. Use the usesrname 'ubuntu' and the password you set earlier.
 
 Open the chromium web browser and navigate to any website. Try to print the page and make sure that there is a printer available that is NOT the default "PDF Printer".
 
