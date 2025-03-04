@@ -8,9 +8,9 @@
 
 You will need these tools and items to complete this exercise:
 - Access to the course AWS account
-- A ssh key set up on the AWS account
+- An ssh key set up on the AWS account
 - A terminal application capable of SSH
-- A Remote Desktop Protocol (RDP) client (this is built into Windows, and availablee for Mac and Linux)
+- A Remote Desktop Protocol (RDP) client (this is built into Windows, and available for Mac and Linux)
 
 ## Setup
 
