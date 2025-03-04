@@ -5,11 +5,11 @@
 
 ## Scenario
 
-You are a system administrator for a small school. You have been tasked with setting up workstations for the students. The school has chose to use Ubuntu Linux for their computer labs as it is open source, well-maintained, and can be properly secured. The students will need to print assignments to a network printer, access the internet, use a word processor, draw graphics, and during recess, play appropriate games. 
+You are a system administrator for a small school. You have been tasked with setting up workstations for the students. The school has chosen to use Ubuntu Linux for their computer labs as it is open source, well-maintained, and can be properly secured. The students will need to print assignments to a network printer, access the internet, use a word processor, draw graphics, and during recess, play appropriate games. 
 
 ## Automatic Updates
 
-We don't want administrators or students to have the task of regularly running updates. What has to be done manually often just will not get done. Thankfully it's possible to have Ubuntu automatically download and apply updates. We need to install the unnatended-upgrades package and then configure it.
+We don't want administrators or students to have the task of regularly running updates. What has to be done manually often just will not get done. Thankfully it's possible to have Ubuntu automatically download and apply updates. We need to install the unattended-upgrades package and then configure it.
 
 
 This will install the automatic upgrade package.

@@ -13,12 +13,12 @@ There are some key reasons we are doing this:
 
 ## Tasks
 
-Create a new folder on googlee drive and share it with your group. This will be the location where you will store all of your documentation and scripts. Share the document with relevant team members, ensuring appropriate access permissions (view/edit).
+Create a new folder on Google drive and share it with your group. This will be the location where you will store all of your documentation and scripts. Share the document with relevant team members, ensuring appropriate access permissions (view/edit).
 
 
 ### Documentation
 
-Create a new Google Doc called "System Configuration Guide". Track changes and maintain version history to manage updates effectively. Organize your document with clear heading and sections:
+Create a new Google Doc called "System Configuration Guide". Track changes and maintain version history to manage updates effectively. Organize your document with clear headings and sections:
 
 #### Introduction
 * Provide an overview of the guide’s purpose and scope.
@@ -26,15 +26,15 @@ Create a new Google Doc called "System Configuration Guide". Track changes and m
 * This should be a summary of the work and be no longer than 1 page.
 
 #### Table of Contents
-Be sure to organize your document appropriate headers and subheaders. This will enable you to automatically generate a tablee of contents for easy navigation.
+Be sure to organize your document by appropriate headers and subheaders. This will enable you to automatically generate a table of contents for easy navigation.
 
 #### Sections for Each Configuration Task
 * Document what you needed to do and if there are any special considerations, notes, or steps.
 * Do reference how to run your script(s)
 
 ##### For Each Configuration Task
-* Briefly descript the goal
-* List any relevant commandns and steps
+* Briefly describe the goal
+* List any relevant commands and steps
 
 ###### Example
 
@@ -60,15 +60,12 @@ Scripts or Automation Tools Used:
 Mention any scripts or tools (e.g., Ansible playbooks) utilized for automation.
 
 ###### Include Visual Aids
-Screenshots: Capture and insert screenshots to illustrate configurations.
-User Creation Screens:
-Show the process of adding users to groups.
-Group Membership:
-Display group memberships via commands like groups username.
-Printer Configuration Dialog:
-Illustrate steps taken to add and configure the network printer.
-Annotated Images:
-Use annotations (arrows, labels) to highlight important elements in screenshots.
+
+- Screenshots: Capture and insert screenshots to illustrate configurations.
+- User Creation Screens: Show the process of adding users to groups.
+- Group Membership: Display group memberships via commands like groups username.
+- Printer Configuration Dialog: Illustrate steps taken to add and configure the network printer.
+- Annotated Images: Use annotations (arrows, labels) to highlight important elements in screenshots.
 
 ##### Provide Detailed Explanations
 
@@ -83,7 +80,7 @@ Example:
 
 ##### Validate and Verify Configurations:
 
-Detail steps taken to confirm each configuration was successful. *DO* consider how to prove that your steps were successful and how to document them. This could be screenshots, logs, or other methods and will come in quite useful if there is a security audit or requirement to prove that security controls are in place.
+Detail the steps taken to confirm each configuration was successful. *DO* consider how to prove that your steps were successful and how to document them. This could include screenshots, logs, or other methods and will come in quite useful if there is a security audit or requirement to prove that security controls are in place.
 
 Example:
 
@@ -106,7 +103,7 @@ Upload to the drive your bash scripts that you used to configure the workstation
 
 ### Group Debrief
 * Share any challenges encountered, such as permission issues or difficulty installing certain applications.
-* Discuss how you troubleshooted problems—did you use built-in man pages, online documentation, or an AI assistant?
+* Discuss how you worked to troubleshoot problems—did you use built-in manual pages, online documentation, or an AI assistant?
 
 ### Written Reflection
 Individually or as a group, compose a short (300-500 word) reflection to address:
