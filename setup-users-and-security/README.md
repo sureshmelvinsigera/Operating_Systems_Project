@@ -103,7 +103,7 @@ sudo cp /home/ubuntu/wallpaper.jpg /usr/local/share/backgrounds/
 sudo chmod 755 /usr/local/share/backgrounds/wallpaper.jpg
 ```
 
-Now that we have a wallpaper file handly, we can start setting up the dconf profile. The first step is to create a new profile called `students`. To do this we are going to create a file in `/etc/dconf/profile/` called `students`. This file will contain the name of the profile and the path to the settings file.
+Now that we have a wallpaper file handy, we can start setting up the dconf profile. The first step is to create a new profile called `students`. To do this we are going to create a file in `/etc/dconf/profile/` called `students`. This file will contain the name of the profile and the path to the settings file.
 
 The file should hold:
 
