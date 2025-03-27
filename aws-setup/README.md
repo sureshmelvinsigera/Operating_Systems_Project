@@ -51,8 +51,8 @@ Recommended size is T3a Large
 #### Resource limits
 
 For this exercise, students should not be able to create more than:
-- 2 concurrant instances (not counting the pre-created windows instance)
+- 2 concurrent instances (not counting the pre-created windows instance)
 - Up to 60gb of volumes at any given time
-- They should bel allowed to create security groups.
+- Allowed to create security groups.
 
 For this exercise, they should not need to create any other resources on AWS.
